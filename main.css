@@ -685,3 +685,155 @@ ul {
     padding-top: 0.5em;
   }
 }
+@media (max-width: 380px) {
+  /* GLOBAL STYLES */
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+
+  /* HEADER STYLES */
+  .header {
+    display: flex;
+    flex-direction: row;
+    height: 6vh;
+    width: 100vw;
+  }
+  .header-nav {
+    float: left;
+    padding: 1vh 0 0 1em;
+  }
+  .header-nav > li {
+    margin: 0.1em 0 0 0.1em;
+  }
+  .header-nav > li ~ li {
+    border-width: 0px;
+    padding: 0.5em 0 0 0.04em;
+  }
+  .nav-links a {
+    font-size: 1.8vw;
+  }
+  .header-nav a:hover,
+  .header-nav a:active {
+    border: 0px solid rgba(00,155,0,0.8);
+    border-radius: 0px;
+    color: rgba(00,155,00,0.8);
+    transition: all 0.25s linear;
+  }
+  .header-logo {
+    padding-top: 0.5vh;
+  }
+  .header-logo img {
+    width: 6vh;
+  }
+  .social-list {
+    padding-bottom: 15em;
+  }
+  /* ABOUT + SLIDESHOW STYLES */
+  .about-slideshow {
+    padding-top: 0em;
+  }
+  .about-slideshow-text h2 {
+    font-size: 1.5em;
+  }
+  .about-slideshow-text h3 {
+    font-size: 0.7em;
+  }
+  /* HERO STYLES */
+  .hero-motto h1 {
+    color: #fff;
+    font-size: 0.7em;
+    padding: 0 0 0 0.5em;
+  }
+  /* EVENT STYLES */
+  .event-cards-wrapper {
+    padding-top: 1.5em;
+    padding-left: 4.85em;
+  }
+  .events-title {
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: -7.5em;
+  }
+  .event-cards {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    margin: 2em 0 0 -4.5em;
+  }
+  .card-top {
+    margin-top: 0;
+  }
+  /* TEAM STYLES */
+  .team-cards-wrapper {
+    padding: 3em 0;
+  }
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  .team-title {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  .team-name {
+    font-size: 1em;
+  }
+  .team-images {
+    height: 200px;
+    width: 200px;
+  }
+  .flip-box {
+    background-color: transparent;
+    width: 202px;
+    height: 202px;
+    border: 1px groove #9F9F9F;
+    margin: 4.5em 0 1.5em 3em;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  .team-role-title {
+    margin-top: 1em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .team-role-description {
+    font-size: 0.7em;
+    line-height: 1.1;
+    margin: 0.6em 0.75em 0 0.75em;
+    text-align: left;
+  }
+  /* JOIN STYLES */
+  .join-wrapper {
+    padding-bottom: 3.5em;
+  }
+  .join-title {
+    font-size: 1.3em;
+    padding: 2em 0 1.5em 0;
+  }
+  .join-link > li {
+    margin: 0 0 1.5em 2em;
+  }
+  .join-link a {
+    font-size: 0.7em;
+  }
+  /* FOOTER STYLES */
+  .footer {
+    padding-top: 2.7em;
+  }
+  .footer-links-title {
+    font-size: 1.3em;
+  }
+  .footer-links a {
+    font-size: 0.9em;
+  }
+  .footer-logo h3 {
+    font-size: 1em;
+    padding: 0.5em 0 3em;
+  }
+  .footer-contact-title {
+    font-size: 1.3em;
+    padding-bottom: 0.7em;
+  }
+  .footer-contact-details {
+    font-size: 0.6em;
+  }
+}

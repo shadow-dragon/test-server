@@ -2,5 +2,3 @@
 
 Basically made this repo to host website using GitHub Pages
 
-# test-server
-# test-server
